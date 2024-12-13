@@ -1,0 +1,1 @@
+function foo(a,b){if(typeof a === 'number' && typeof b === 'number'){return a+b;}else{return "Invalid input types";} }console.log(foo(1,2));//Expected Output:3console.log(foo(1,"2"));//Expected Output:Invalid input typesconsole.log(foo(1,true));//Expected Output:Invalid input types
